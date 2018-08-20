@@ -1,0 +1,37 @@
+img {
+    width: 100%;
+}
+
+.panel {
+  box-shadow: 2px 2px 10px grey;
+}
+
+.panel:hover {
+  transform: scale(1.09);
+}
+
+.jumbotron {
+  box-shadow: 2px 2px 10px grey;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
